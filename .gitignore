@@ -2,9 +2,22 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.egg-info/
 
 # C extensions
 *.so
+
+# Virtual env
+.env/
+.venv/
+
+# Data & artifacts
+data/
+models/weights/*.pt
+docs/demo/*.gif
+
+# Jupyter
+.ipynb_checkpoints/
 
 # Distribution / packaging
 .Python

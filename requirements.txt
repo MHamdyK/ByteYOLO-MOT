@@ -1,0 +1,13 @@
+click>=8.0
+torch>=2.0
+numpy>=1.21,<2.0
+opencv-python
+ultralytics>=8.0
+atomicwrites
+cython_bbox
+onemetric
+loguru
+lap
+thop
+requests
+git+https://github.com/ifzhang/ByteTrack.git@main#egg=ByteTrack
