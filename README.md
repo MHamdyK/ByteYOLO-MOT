@@ -61,7 +61,7 @@ byteyolo-mot/
 └── LICENSE
 ~~~
 
-> **Tip 🔥** Have a beefier GPU? Pass a larger `--imgsz` (e.g. `1536` or `1920`) to `byteyolo train`; larger inputs help detect far‑away pedestrians.
+> If you have a GPU with >16 VRAM Pass a larger `--imgsz` (e.g. `1536` or `1920`) to `byteyolo train`; larger inputs help detect far‑away pedestrians.
 
 ---
 
