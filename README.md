@@ -174,12 +174,12 @@ byteyolo submit \
 
 | Image size | mAP<sub>50</sub> | mAP<sub>50‑95</sub> | HOTA | Note                          |
 |------------|------------------|---------------------|------|-------------------------------|
-| 640        | 0.580            | 0.330              | 0.55 | Fast baseline                 |
-| 832        | 0.610            | 0.360              | 0.60 |                               |
-| 960        | 0.630            | 0.380              | 0.63 |                               |
-| **1184**   | **0.655**        | **0.393**          | **0.65** | Best—resolves small objects |
+| 640        | 0.580            | 0.330              | 0 | Fast baseline                 |
+| 832        | 0.610            | 0.360              | 0 |                               |
+| 960        | 0.630            | 0.380              | 0 |                               |
+| **1184**   | **0.655**        | **0.393**          | **0.53** | Best—resolves small objects |
 
-> Bigger than 1184 (e.g. 1536, 1920) may improve recall if you have ≥16 GB VRAM—diminishing returns beyond ~2 k px.
+> Bigger than 1184 (e.g. 1536, 1920) may improve recall if you have ≥16 GB VRAM—diminishing returns beyond ~2 k px. This depends on your Use-Case, if you have a far POV you could try increasing imgsz, if your inference Footage close range, Lower the imgsz so it doesnt detect False Positives
 
 ---
 
